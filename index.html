@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WireVirus</title>
+
+<style>
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#efefef;
+color:#111;
+}
+
+.page{
+max-width:1200px;
+margin:0 auto;
+padding:30px 24px 60px;
+}
+
+.top-logo{
+text-align:center;
+margin-top:10px;
+}
+
+.top-logo img{
+max-width:680px;
+width:100%;
+height:auto;
+}
+
+.divider{
+border:none;
+border-top:1px solid #999;
+margin:25px auto 110px;
+width:86%;
+}
+
+.hero{
+text-align:center;
+margin-bottom:90px;
+}
+
+.hero h1{
+font-size:34px;
+font-weight:400;
+line-height:1.3;
+margin:0 0 10px;
+}
+
+.hero .made-in-texas{
+color:#ff5a52;
+font-size:22px;
+margin-bottom:6px;
+font-weight:500;
+}
+
+.hero .patent{
+font-size:16px;
+}
+
+.section-title{
+text-align:center;
+font-family:Georgia,"Times New Roman",serif;
+font-size:54px;
+font-weight:400;
+margin:0 0 50px;
+}
+
+.purchase{
+margin-bottom:95px;
+}
+
+.logo-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:44px 48px;
+align-items:center;
+justify-items:center;
+margin:0 auto 60px;
+max-width:1100px;
+}
+
+.logo-grid img{
+max-width:100%;
+max-height:130px;
+width:auto;
+height:auto;
+object-fit:contain;
+}
+
+.purchase-text{
+text-align:center;
+font-size:17px;
+line-height:1.9;
+font-weight:700;
+}
+
+.purchase-text .spacer{height:18px;}
+
+.video-list{
+max-width:760px;
+margin:0 auto;
+display:flex;
+flex-direction:column;
+gap:40px;
+}
+
+.video-wrap iframe{
+width:100%;
+aspect-ratio:16/9;
+border:0;
+}
+
+.product-shot{
+text-align:center;
+margin:40px 0 90px;
+}
+
+.product-shot img{
+max-width:560px;
+width:100%;
+}
+
+.faq{
+max-width:980px;
+margin:0 auto 90px;
+text-align:center;
+}
+
+.faq-item{margin-bottom:42px;}
+
+.faq-question{
+font-size:19px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.faq-answer{
+font-size:17px;
+line-height:1.8;
+}
+
+.footer{
+max-width:980px;
+margin:100px auto 0;
+display:flex;
+justify-content:space-between;
+font-size:16px;
+}
+
+@media(max-width:900px){
+.logo-grid{grid-template-columns:repeat(2,1fr);}
+.section-title{font-size:42px;}
+.hero h1{font-size:28px;}
+}
+
+@media(max-width:640px){
+.logo-grid{grid-template-columns:1fr;}
+.footer{flex-direction:column;text-align:center;}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="top-logo">
+<img src="images/logo.png">
+</div>
+
+<hr class="divider">
+
+<section class="hero">
+<h1>Operate 2 valves independently with only 1 field wire</h1>
+<div class="made-in-texas">MADE IN TEXAS</div>
+<div class="patent">Patent Pending</div>
+</section>
+
+<section class="purchase">
+
+<h2 class="section-title">PURCHASE</h2>
+
+<div class="logo-grid">
+<img src="images/siteone.png">
+<img src="images/ewing.png">
+<img src="images/horizon.png">
+<img src="images/northsouth.png">
+<img src="images/fis.png">
+<img src="images/longhorn.png">
+<img src="images/texasirrigation.png">
+<img src="images/davis.png">
+</div>
+
+<div class="purchase-text">
+<div>IN STOCK ACROSS MULTIPLE STATES!</div>
+<div class="spacer"></div>
+<div>HEAD TO YOUR LOCAL SUPPLIER AND REQUEST PART NUMBER:</div>
+<div class="spacer"></div>
+<div>SINGLE PACK: BG-WV-1</div>
+<div>5-PACK: BG-WV-5</div>
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">LEARN</h2>
+
+<div class="video-list">
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/_E-5QlM28Io" allowfullscreen></iframe>
+</div>
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/6kF2-7RXTvE" allowfullscreen></iframe>
+</div>
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/T8TbT8sMORI" allowfullscreen></iframe>
+</div>
+
+</div>
+
+</section>
+
+<div class="product-shot">
+<img src="images/product.png">
+</div>
+
+<section class="faq">
+
+<h2 class="section-title">FAQ</h2>
+
+<div class="faq-item">
+<div class="faq-question">Does the Wirevirus take batteries?</div>
+<div class="faq-answer">Nope, just hook it up and you're ready to go!</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Does the Wirevirus work with any controller?</div>
+<div class="faq-answer">Yes! It will work with any 24V controller.</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Can I install a Wirevirus to power a master valve?</div>
+<div class="faq-answer">As long as it does not exceed 1A, sure!</div>
+</div>
+
+</section>
+
+<footer class="footer">
+<div>©2022-present by wirevirus.</div>
+<div>Romans 8:28</div>
+</footer>
+
+</div>
+
+</body>
+</html>
