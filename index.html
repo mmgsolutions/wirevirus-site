@@ -6,12 +6,15 @@
 <title>WireVirus</title>
 
 <style>
+
 *{box-sizing:border-box;}
+
 html{scroll-behavior:smooth;}
+
 body{
 margin:0;
 font-family:Arial, Helvetica, sans-serif;
-background:#efefef;
+background:#ffffff;
 color:#111;
 }
 
@@ -101,6 +104,10 @@ font-weight:700;
 
 .purchase-text .spacer{height:18px;}
 
+.learn{
+margin-bottom:90px;
+}
+
 .video-list{
 max-width:760px;
 margin:0 auto;
@@ -113,16 +120,6 @@ gap:40px;
 width:100%;
 aspect-ratio:16/9;
 border:0;
-}
-
-.product-shot{
-text-align:center;
-margin:40px 0 90px;
-}
-
-.product-shot img{
-max-width:560px;
-width:100%;
 }
 
 .faq{
@@ -144,6 +141,17 @@ font-size:17px;
 line-height:1.8;
 }
 
+.faq-answer ol{
+text-align:left;
+max-width:700px;
+margin:15px auto;
+}
+
+.faq-answer li{
+font-weight:bold;
+margin-bottom:10px;
+}
+
 .footer{
 max-width:980px;
 margin:100px auto 0;
@@ -153,17 +161,21 @@ font-size:16px;
 }
 
 @media(max-width:900px){
+
 .logo-grid{grid-template-columns:repeat(2,1fr);}
 .section-title{font-size:42px;}
 .hero h1{font-size:28px;}
+
 }
 
 @media(max-width:640px){
+
 .logo-grid{grid-template-columns:1fr;}
 .footer{flex-direction:column;text-align:center;}
-}
-</style>
 
+}
+
+</style>
 </head>
 
 <body>
@@ -198,17 +210,23 @@ font-size:16px;
 </div>
 
 <div class="purchase-text">
+
 <div>IN STOCK ACROSS MULTIPLE STATES!</div>
+
 <div class="spacer"></div>
+
 <div>HEAD TO YOUR LOCAL SUPPLIER AND REQUEST PART NUMBER:</div>
+
 <div class="spacer"></div>
+
 <div>SINGLE PACK: BG-WV-1</div>
 <div>5-PACK: BG-WV-5</div>
+
 </div>
 
 </section>
 
-<section>
+<section class="learn">
 
 <h2 class="section-title">LEARN</h2>
 
@@ -230,10 +248,6 @@ font-size:16px;
 
 </section>
 
-<div class="product-shot">
-<img src="images/product.png">
-</div>
-
 <section class="faq">
 
 <h2 class="section-title">FAQ</h2>
@@ -249,8 +263,44 @@ font-size:16px;
 </div>
 
 <div class="faq-item">
+<div class="faq-question">How long does the Wirevirus last?</div>
+<div class="faq-answer">
+Our first prototype Wirevirus was installed in June of 2021 and it's still going strong. In general, if the Wirevirus is used within its specified limits (&lt;1Amp) and under normal operating conditions, it should last for many years. However, there are external factors that will shorten it's lifespan such as misuse, lightning strikes, power surges, trying to intentionally kill the virus with Lysol and fire, etc...
+</div>
+</div>
+
+<div class="faq-item">
 <div class="faq-question">Can I install a Wirevirus to power a master valve?</div>
-<div class="faq-answer">As long as it does not exceed 1A, sure!</div>
+<div class="faq-answer">
+As long as it does not exceed 1A, sure!
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">How is the Wirevirus better than other similar products?</div>
+<div class="faq-answer">
+
+<p>Depends on the brand for comparison, but here are some key features:</p>
+
+<ol>
+<li>1. Tiny unit. Fits comfortably in your pocket and doesn't take up much space in your service vehicle.</li>
+<li>2. Color coded zones for easy installation. (Blue and red)</li>
+<li>3. Fully waterproof</li>
+<li>4. 18 gauge copper wire. You're welcome</li>
+<li>5. Use less wire nuts. You don't have to fuss with the common wire.</li>
+<li>6. Interchangeable. There isn't a specific side for the controller and one for the valve.</li>
+<li>7. Very affordable.</li>
+<li>8. Easy installation. (Instructional videos above.)</li>
+</ol>
+
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">What’s the max distance from the field unit that a wire can be pulled?</div>
+<div class="faq-answer">
+This would depend on a variety of factors such as wire gauge, the condition of the wire, current draw of the solenoid, etc. Generally speaking, if you have ~24v at the end of the line, you're good to go.
+</div>
 </div>
 
 </section>
